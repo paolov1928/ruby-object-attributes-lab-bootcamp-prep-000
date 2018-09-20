@@ -4,9 +4,11 @@
 #You'll be teaching `Dog` about their breed through two methods, `#breed`, and `#breed=` that read and write to a corresponding instance variable `@breed`.
 
 class Dog
-  def name(dogname)
+  def name=(dogname)
     @name = dogname
   end
+  
+  
   
   def name
     @name
