@@ -8,12 +8,12 @@ def name=(personname)
     @name
   end
   
-   def breed=(dogbreed)
-    @breed = dogbreed
+   def job=(jobname)
+    @job = jobname
   end
   
-  def breed
-    @breed
+  def job
+    @job
   end
  
 end
